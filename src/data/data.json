@@ -18,7 +18,7 @@
     {
       "title": "Medizinischer Managementdienst",
       "url": "project-med.html",
-      "image": "../images/med-1.png",
+      "image": "images/med-1.png",
       "type": "projects__item--img-left",
       "class": "projects__item-img--med",
       "descr": "Das System zur Verarbeitung von Berichten von medizinischen Organisationen. Ermöglicht das Sammeln von Daten von medizinischen Organisationen an einem zentralen Ort, die Verarbeitung von Berichten, die Sammlung von Statistiken und die Überwachung von untergeordneten medizinischen Einrichtungen.",
@@ -27,7 +27,7 @@
     {
       "title": "Evropafilmact",
       "url": "",
-      "image": "../images/evr-1.png",
+      "image": "images/evr-1.png",
       "type": "projects__item--img-right",
       "class": "projects__item-img--evr",
       "descr": "Die Website des jährlichen Festivals für europäisches Autorenkino in Paris: Auf der Website kann der Benutzer das Festivalprogramm einsehen, Informationen zu den Filmen lesen und Tickets für die Vorführungen erwerben.",
@@ -36,7 +36,7 @@
     {
       "title": "MyDoc (Web und App)",
       "url": "",
-      "image": "../images/mdoc-1.png",
+      "image": "images/mdoc-1.png",
       "type": "projects__item--img-left",
       "class": "projects__item-img--mdoc",
       "descr": "Ein Service, mit dem man sich am Tag der Anfrage einen Arzttermin sichern, eine Videoberatung erhalten und Laborergebnisse entschlüsseln lassen kann. Nach der Beratung sind alle Empfehlungen im persönlichen Patientenportal verfügbar. Auf der Website kann man nicht nur einen Arzt auswählen und sich zu einem passenden Termin anmelden, sondern auch Gesundheitsprogramme erwerben und die Dienstleistungen mit Hilfe der Krankenversicherung bezahlen. Außerdem besteht die Möglichkeit, sich mit einem Tierarzt über die Behandlung von Haustieren zu beraten.",
@@ -45,7 +45,7 @@
     {
       "title": "MyDoc Clinic",
       "url": "",
-      "image": "../images/mclinic-1.png",
+      "image": "images/mclinic-1.png",
       "type": "projects__item--img-right",
       "class": "projects__item-img--mclinic",
       "descr": "Die Website einer medizinischen Klinik. Über die Website können Informationen zur Qualifikation der Ärzte, den angebotenen Dienstleistungen und Terminvereinbarungen eingesehen werden. Die Hauptaufgabe der Website besteht darin, den Benutzer zu informieren, Vertrauen zu schaffen, Bewertungen über die Ärzte bereitzustellen und ihn dazu zu bewegen, einen Termin zu vereinbaren.",
@@ -54,7 +54,7 @@
     {
       "title": "BearBike",
       "url": "",
-      "image": "../images/bearbike-1.png",
+      "image": "images/bearbike-1.png",
       "type": "projects__item--img-left",
       "class": "projects__item-img--bbike",
       "descr": "Die Promotionssite über das Fahrradmodell Las Vegas 4.0 des Herstellers BierBike. Der Benutzer kann Details und Besonderheiten des Fahrerlebnisses auf einem Singlespeed-Fahrrad erfahren, Informationen zur Fahrradproduktion von BierBike, ihrer Leichtigkeit und den Vorteilen des Fahrens mit einem Fixie in städtischer Umgebung erhalten.",
@@ -63,7 +63,7 @@
     {
       "title": "Podkast über Softskills",
       "url": "",
-      "image": "../images/podcast-1.png",
+      "image": "images/podcast-1.png",
       "type": "projects__item--img-right",
       "class": "projects__item-img--soft",
       "descr": "Podcast über Soft Skills. Ich habe das Design dieser Landingpage während meiner Arbeit bei Yandex.Praktikum umgesetzt. Die Website auf Russisch können Sie über den unten stehenden Link anzeigen.",
