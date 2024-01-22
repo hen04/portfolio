@@ -1,0 +1,122 @@
+extends templates/layout
+include templates/_mixins
+
+block nav
+	- var currentTitle = "projects.html";
+	+nav(currentTitle)
+
+block content
+	main
+		.wrapper
+			.project-item
+				a(href="projects.html") Alle Projekte
+				h1 Medizinischer Managementdienst
+
+				.project-item__row
+					.project-item__heading
+						h4 Worum geht es im Projekt
+					.project-item__info
+						p System zur Verarbeitung von Berichten von medizinischen Organisationen. Es ermöglicht das Sammeln von Daten von medizinischen Organisationen an einem zentralen Ort, die Verarbeitung von Berichten, die Sammlung von Statistiken und die Überwachung von untergeordneten medizinischen Einrichtungen.
+
+				.project-item__row
+					.project-item__heading
+						h4 Projektziel
+					.project-item__info
+						p Es ist nötig, ein System zu schaffen, mit dem medizinische Organisationen Berichte an Kontrollorganisationen senden können. Da solche Berichte früher nach schnell veraltenden Vorlagen gesendet wurden, musste viel Arbeit manuell erledigt werden. Das System hilft, die Berichtsverarbeitung zu automatisieren und gleichzeitig die Manager von medizinischen Organisationen bei der Ausfüllung von Berichten nicht zu überlasten. Es war notwendig, ein solches System zu schaffen, das es Managern ermöglicht, intuitiv zu verstehen, wie sie verschiedene Berichte hochladen, Fehler in den Berichten erkennen und sie schnell korrigieren können.
+
+
+
+				.project-item__row
+					.project-item__heading
+						h4 Meine Rolle und Arbeitsprozess
+					.project-item__info
+						.project-item__info-sm
+							h5 Informationssammlung vom Projektmanager
+							p Ich habe mit dem Projektmanager zusammengearbeitet, der die Aufgaben vom Kunden gestellt hat. Beispielsweise besteht die Notwendigkeit, einen Ablauf zur Hinzufügung eines neuen Formulars für eine medizinische Einrichtung zu implementieren. Während des vorbereitenden Anrufs haben wir die Details der Aufgabe geklärt, wie das Interface sich verhalten soll, welche Funktionen der Benutzer haben wird und was Benutzern mit verschiedenen Rollen zur Verfügung stehen wird.
+						.project-item__info-sm
+							h5 Informationen verarbeiten und Referenzen suchen
+							p Nach dem Anruf habe ich Prototypen erstellt, die es ermöglichen, die notwendige Funktionalität detailliert auszuarbeiten. Ich habe dem Manager die Prototypen gezeigt und den gesamten Prozess des Durchlaufens des Ablaufs mit ihm detailliert besprochen, um genau zu verstehen, dass die Funktion genau so funktioniert.
+						.project-item__info-sm
+							h5 Zeichnen der Layouts
+							p Nach der Genehmigung der Prototypen habe ich mit dem Zeichnen der Layouts begonnen. Ich habe versucht, ein System von Komponenten und Variablen aufrechtzuerhalten, um ähnliche Farben und Elemente nicht zu duplizieren. Ich habe sofort alle Zustände gezeichnet, damit die Entwickler während der Implementierung des Projekts weniger Fragen haben.
+						.project-item__info-sm
+							h5 Die Besprechung der Layouts mit Entwicklern und dem Manager
+							p Nach dem Zeichnen der Layouts habe ich an einem Anruf mit den Entwicklern und dem Manager teilgenommen, um die endgültigen Layouts abzustimmen oder Korrekturen vorzunehmen, wenn Ungenauigkeiten bemerkt wurden.
+						.project-item__info-sm
+							h5 Erstellung einer Beschreibung der Hauptfunktionalität
+							p Ich habe eine textliche Beschreibung zu den Layouts erstellt und den Entwicklern Erklärungen gegeben, wie sich das Interface in diesem oder jenem Fall verhalten sollte.
+						.project-item__info-sm
+							h5 Kontrolle der Implementierung der Funktionalität
+							p Nach der Implementierung der Funktionalität habe ich mich mit dem Entwickler abgesprochen und überprüft, ob alles korrekt implementiert wurde. Wir haben die Layouts überarbeitet, wenn wir auf das Problem gestoßen sind, dass eine Funktion in der Form, in der sie gezeichnet wurde, nicht implementiert werden kann.
+
+				.project-item__row
+					.project-item__heading
+						h4 Beispiellayouts
+					.project-item__info
+						.project-item__info-sm
+							p Wir betrachten die Arbeit mit Layouts am Beispiel der Hinzufügung einer Formenliste. Aufgabe: Entwicklung einer Funktion, die es dem Managementmanager ermöglicht, Formularvorlagen zu erstellen und zu überprüfen. Der Managementmanager erstellt Formularvorlagen, die Manager von medizinischen Organisationen füllen die Formulare aus und senden sie zur Überprüfung. Der Managementmanager überprüft die Formulare auf Fehler, bearbeitet, akzeptiert oder sendet sie zur Überarbeitung.
+							p Es gibt zwei Möglichkeiten, Formularvorlagen zu erstellen – Sie können ein Formular in Excel vorbereiten und es in das System hochladen, oder Sie können ein Formular im Formulareditor erstellen. Der Formulareditor ist eine angepasste Version von Excel, so dass der Managementmanager nicht an eine neue Funktion gewöhnen muss.
+							p Auf dem ersten Bildschirm sieht der Managementmanager die Formulare, er kann sie bearbeiten, akzeptieren oder ablehnen.
+
+						.gallery 
+							a(href="images/med-2.png")
+								img(src="../images/med-2.png" alt="")
+
+						.project-item__info-sm
+							p Managern stehen zusätzliche Optionen zur Verfügung, die im Kontextmenü (Dreipunktsymbol) gefunden werden können.
+
+						.gallery 
+							a(href="images/med-3.png")
+								img(src="../images/med-3.png" alt="")
+
+						.project-item__info-sm
+							p Um ein Formular auszufüllen oder zu bearbeiten, müssen Sie im Menü den Punkt "Ausfüllen" auswählen und der Manager gelangt in den Formulareditor. Der Editor ist eine Benutzeroberfläche, die so nah wie möglich an Excel angelehnt ist.
+
+						.gallery 
+							a(href="images/med-4.png")
+								img(src="../images/med-4.png" alt="")
+
+						.project-item__info-sm 
+							p Wenn das Formular korrekt ausgefüllt ist, kann der Manager das Formular akzeptieren, wenn es Fragen gibt, kann er einen Kommentar schreiben und das Formular ablehnen.
+
+						.gallery 
+							a(href="images/med-5.png")
+								img(src="../images/med-5.png" alt="")
+
+				.project-item__row
+					.project-item__heading
+						h4 Herausforderungen
+					.project-item__info
+						.project-item__info-sm
+							p Die komplexeste Aufgabe im Projekt war der Formulargenerator. Der Formulargenerator ermöglicht es, Tabellen zu erstellen und zu bearbeiten, Zellen zu füllen, Berechnungsformeln in Zellen anzuwenden, Berichte zu erstellen und verschiedene Manipulationen mit Berichten durchzuführen. Aufgrund seiner komplexen Funktionalität wirkt der Formulargenerator überladen und es dauert eine Weile, sich an eine solche gesättigte Schnittstelle zu gewöhnen.
+
+						.gallery 
+							a(href="images/med-6.png")
+								img(src="../images/med-6.png" alt="")
+						
+						.project-item__info-sm
+							p Eine Besonderheit des Formulargenerators ist die Möglichkeit, mehrere Ebenen in jeder Zelle zu erstellen, um verschiedene Daten - Formeln, Kommentare, Berechnungen - einzugeben. Symbole helfen zu verstehen, welche Art von Daten in der Zelle eingegeben wurden.
+
+						.gallery 
+							a(href="images/med-7.png")
+								img(src="../images/med-7.png" alt="")
+
+				.project-item__row
+					.project-item__heading
+						h4 Design-System
+					.project-item__info
+						.project-item__info-sm
+							p In meiner Arbeit habe ich ein System von Komponenten und Varianten sowie Text- und Farbvariablen verwendet. Dies hat Zeit gespart und ermöglichte es, die Layouts in einer saubereren Form zur Entwicklung weiterzugeben. Für die Bibliothek habe ich ein separates Projekt verwendet, das mit dem Hauptprojekt verknüpft war. Dies hat es den Managern ermöglicht, sich nicht von den Layout-Reviews und Diskussionen ablenken zu lassen, und gleichzeitig hatten die Entwickler Zugang zu einer vollständigen Bibliothek von Zuständen interaktiver Formularelemente und Varianten von Tabellen, Kontextmenüs, Seitenleisten usw.
+
+						.gallery 
+							a(href="images/med-8.png")
+								img(src="../images/med-8.png" alt="")
+
+						.gallery 
+							a(href="images/med-9.png")
+								img(src="../images/med-9.png" alt="")
+
+	.all-projects 
+		h2 
+			a(href="projects.html") Alle Projekte 
+		a(href="projects.html" class="button") Anschauen

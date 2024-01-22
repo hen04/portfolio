@@ -1,0 +1,56 @@
+extends templates/layout
+include templates/_mixins
+
+block nav
+	- var currentTitle = "projects.html";
+	+nav(currentTitle)
+
+block content
+	main
+		.wrapper
+			.project-item
+				a(href="projects.html") Alle Projekte
+				h1 Evropafilmact
+
+				.project-item__row
+					.project-item__heading
+						h4 Worum geht es im Projekt
+					.project-item__info
+						p &nbsp;
+
+				.project-item__row
+					.project-item__heading
+						h4 Projektziel
+					.project-item__info
+						p &nbsp;
+
+
+
+				.project-item__row
+					.project-item__heading
+						h4 Meine Rolle und Arbeitsprozess
+					.project-item__info
+						p &nbsp;
+
+				.project-item__row
+					.project-item__heading
+						h4 Beispiellayouts
+					.project-item__info
+						p &nbsp;
+
+				.project-item__row
+					.project-item__heading
+						h4 Mobile Version
+					.project-item__info
+						p &nbsp;
+
+				.project-item__row
+					.project-item__heading
+						h4 Frontend
+					.project-item__info
+						p &nbsp;
+
+	.all-projects 
+		h2 
+			a(href="projects.html") Alle Projekte 
+		a(href="projects.html" class="button") Anschauen
