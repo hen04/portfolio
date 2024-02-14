@@ -9,4 +9,33 @@ block nav
 block content
 	main
 		.wrapper
-			h1 Meine Erfahrung
+			.about
+				h1 Erfahrung
+				.about__item
+					.about__item-heading 
+						h3 Kenntnisse
+					.about__item-content
+						each item in about
+							.about__item-sm
+								h5= item.title
+								p= item.descr
+				.about__item
+					.about__item-heading 
+						h3 Arbeitserfahrung
+					.about__item-content 
+						each item in experience
+							.about__item-sm
+								h4= item.title
+								p.time= item.time
+								.about__item-sm-list
+									p.position= item.position
+									ul.list
+										each subitem in item.detail
+											li= subitem.item
+				.about__item
+					.about__item-heading 
+						h3 Werte und Arbeitsweise
+					.about__item-content
+						each item in values
+							ul.list
+								li= item.item

@@ -69,5 +69,94 @@
       "descr": "Podcast über Soft Skills. Ich habe das Design dieser Landingpage während meiner Arbeit bei Yandex.Praktikum umgesetzt. Die Website auf Russisch können Sie über den unten stehenden Link anzeigen.",
       "link": "https://maybesofter.com/"
     }
+  ],
+
+  "about": [
+    {
+      "title": "Design",
+      "descr": "Web Design, UX Design, UI Design, Prototypen, Design-Systems"
+    },
+    {
+      "title": "Web Enwicklung",
+      "descr": "HTML5 (PUG), CSS3 (SASS, SCSS, LESS), JavaScript, GIT"
+    },
+    {
+      "title": "Applications",
+      "descr": "Figma, Photoshop, WebStorm, VisualStudio"
+    },
+    {
+      "title": "CMS als Benutzer",
+      "descr": "WordPress, Drupal, Joomla"
+    }
+  ],
+
+  "experience": [
+    {
+      "time": "09.2022 – bis jetzt (Voll Zeit)",
+      "title": "Business Secrets (Eine Medien von der Tinkoff Bank)",
+      "position": "Web-Entwicklerin und UX/UI Designerin",
+      "detail": [
+        {
+          "item": "— Das System, das die Arbeit der Redakteuren automatisiert und erleichtert."
+        },
+        {
+          "item": "— Innere Projekte für Redaktoren."
+        }
+      ]
+    },
+    {
+      "time": "08.2020–01.2022 (Voll Zeit), 08.2023 – bis jetzt (Teil Zeit)",
+      "title": "MyDoc und MyDoc Clinic",
+      "position": "UX/UI Designerin und Web-Entwicklerin",
+      "detail": [
+        {
+          "item": "— Die Website für das telemedizinische Projekt."
+        },
+        {
+          "item": "— Das Design für eine App für das telemedizinische Projekt."
+        },
+        {
+          "item": "— Die Website für die Klinik."
+        },
+        {
+          "item": "— Das Design-System für das telemedizinische Projekt und die Klinik."
+        }
+      ]
+    },
+    {
+      "time": "02.2022–08.2022 (Voll Zeit), 08.2022–01.2023 (Teil Zeit)",
+      "title": "Yandex Praktikum",
+      "position": "Web-Designerin",
+      "detail": [
+        {
+          "item": "— Das Design-System für innere Projekte."
+        },
+        {
+          "item": "— Der Entwurf und das Design Projektarbeiten für Studenten."
+        },
+        {
+          "item": "— Die Aufrechterhaltung des aktuellen Stands der inneren Projekte. "
+        },
+        {
+          "item": "— Landing Page für einen Podcast über Soft Skills."
+        }
+      ]
+    }
+  ],
+
+  "values": [
+    {
+      "item": "— Ich arbeite gerne sowohl in einem Team als auch selbständig. Ich bin ziemlich flexibel und ich versuche immer eine gemeinsame Sprache mit meinen Kollegen zu finden."
+    },
+    {
+      "item": "— Ich bin diszipliniert und erledige meine Aufgaben rechtzeitig. Ich gebe viel Acht auf die Kleinigkeiten und gleichzeitig ich weiß, dass das Interface niemand perfekt sein kann. Es gibt immer Möglichkeiten, die Arbeit zu verbessern."
+    },
+    {
+      "item": "— Meine Kollegen sagen, dass man sich auf die Qualität meiner Arbeit verlassen kann."
+    },
+    {
+      "item": "— Es macht mir Spaß, mich nicht nur auf das Ergebnis, sondern auch auf den Prozess zu konzentrieren."
+    }
   ]
+
 }
