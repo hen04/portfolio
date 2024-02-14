@@ -573,6 +573,7 @@ a:hover:after {
 }
 .main__about-photo img {
   max-width: 100%;
+  width: 270px;
 }
 .main__about-text-item {
   margin-bottom: 20px;
@@ -993,20 +994,59 @@ a:hover:after {
     margin-bottom: 40px;
   }
 }
-@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+@media only screen and (min-width: 1024px) {
   .contact__photo {
-    /* 1024-1279 */
-    width: 50%;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .contact__photo {
-    /* > 1280 */
-    width: 40%;
+    /* > 1024 */
+    padding-right: 80px;
   }
 }
 .contact__photo img {
   max-width: 100%;
+  width: 270px;
   display: block;
+}
+
+.about__item {
+  display: flex;
+  margin-bottom: 80px;
+}
+.about__item-heading {
+  width: 40%;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+.about__item-content {
+  padding-top: 12px;
+  width: 60%;
+}
+.about__item-sm {
+  margin-bottom: 40px;
+}
+.about__item-sm h4 {
+  margin-bottom: 4px;
+}
+.about__item-sm .time {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-style: italic;
+}
+.about__item-sm .position {
+  font-weight: 700;
+  font-family: "Source Serif 4", sans-serif;
+  margin-bottom: 4px;
+}
+.about__item-sm-list {
+  padding-left: 20px;
+}
+.about__item-sm-list .list li {
+  margin-bottom: 2px;
+}
+.about .list {
+  padding: 0;
+  margin: 0;
+}
+.about li {
+  list-style: none;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=maps/main-style.css.map */
