@@ -195,7 +195,7 @@ a {
 	padding: 0 24px;
 
 	@include responsive(mobilelandscape) {
-		max-width: 580px;
+		max-width: 680px;
 		margin: 0 auto;
 	}
 
@@ -701,24 +701,68 @@ a {
 }
 
 .about {
-	&__item {
-		display: flex;
+	@include responsive(mobile) {
 		margin-bottom: 80px;
 	}
 
+	&__item {
+		margin-bottom: 60px;
+
+		@include responsive(portraitdesktop) {
+			display: flex;
+		}
+
+		@include responsive(landscapedesktop) {
+			margin-bottom: 80px;
+		}
+
+		&:not(:first-child) {
+			@include responsive(mobile) {
+				position: relative;
+			}
+		}
+
+		&:before {
+			@include responsive(mobile) {
+				content: ''; 
+				position: absolute;
+				height: 3px;
+				background-color: #2D008C;
+				left: 0;
+				right: 0;
+				top: -32px;
+			}
+		}
+
+
+	}
+
 	&__item-heading {
-		width: 40%;
-		padding-right: 40px;
-		box-sizing: border-box;
+		@include responsive(portraitdesktop) {
+			width: 40%;
+			padding-right: 40px;
+			box-sizing: border-box;
+		}
 	}
 
 	&__item-content {
-		padding-top: 12px;
-		width: 60%;
+
+		@include responsive(portraitdesktop) {
+			padding-top: 6px;
+			width: 60%;
+		}
+
+		@include responsive(landscapedesktop) {
+			padding-top: 12px;
+		}
 	}
 
 	&__item-sm {
-		margin-bottom: 40px;
+		@include responsive(mobile) {
+			margin-bottom: 24px;
+		}
+
+		margin-bottom: 32px;
 
 		h4 {
 			margin-bottom: 4px;
@@ -731,8 +775,6 @@ a {
 		}
 
 		.position {
-			font-weight: 700;
-			font-family: "Source Serif 4", sans-serif;
 			margin-bottom: 4px;
 		}
 	}
