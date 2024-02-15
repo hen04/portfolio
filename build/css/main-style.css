@@ -916,6 +916,7 @@ a:hover:after {
     /* > 1024 */
     width: 42%;
     padding-right: 40px;
+    margin-top: -4px;
   }
 }
 .project-item__heading h4 {

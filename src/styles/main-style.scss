@@ -614,6 +614,7 @@ a {
 		@include responsive(landscapedesktop) {
 			width: 42%;
 			padding-right: 40px;
+			margin-top: -4px;
 		}
 
 		h4 {
