@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -1100,5 +1101,12 @@ a:hover:after {
 .about li {
   list-style: none;
   margin-bottom: 20px;
+  position: relative;
+  padding-left: 20px;
+}
+.about li:before {
+  content: "—";
+  position: absolute;
+  left: 0;
 }
 /*# sourceMappingURL=maps/main-style.css.map */

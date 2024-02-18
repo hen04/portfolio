@@ -799,6 +799,15 @@ a {
 	li {
 		list-style: none;
 		margin-bottom: 20px;
+		position: relative;
+		padding-left: 20px; 
+
+		&:before {
+			content: '—';
+			position: absolute;
+			left: 0;
+		}
 	}
 
 }
+
