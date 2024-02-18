@@ -614,6 +614,7 @@ a {
 		@include responsive(landscapedesktop) {
 			width: 42%;
 			padding-right: 40px;
+			margin-top: -4px;
 		}
 
 		h4 {
@@ -798,6 +799,15 @@ a {
 	li {
 		list-style: none;
 		margin-bottom: 20px;
+		position: relative;
+		padding-left: 20px; 
+
+		&:before {
+			content: '—';
+			position: absolute;
+			left: 0;
+		}
 	}
 
 }
+
