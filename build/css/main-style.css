@@ -477,6 +477,9 @@ a:hover:after {
   .header {
     /* > 1024 */
     padding: 32px 80px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
   }
 }
 
@@ -522,18 +525,19 @@ a:hover:after {
 .wrapper {
   box-sizing: border-box;
   padding: 0 24px;
+  margin: 0 auto;
 }
 @media only screen and (max-width: 1023px) {
   .wrapper {
     /* < 1023 */
     max-width: 680px;
-    margin: 0 auto;
   }
 }
 @media only screen and (min-width: 1024px) {
   .wrapper {
     /* > 1024 */
     padding: 0 80px;
+    max-width: 1440px;
   }
 }
 
@@ -583,10 +587,13 @@ a:hover:after {
   margin-bottom: 2px;
 }
 
-.footer {
-  margin-top: auto;
+footer {
   background-color: #041941;
   color: #FFFFFF;
+}
+
+.footer {
+  margin-top: auto;
   padding: 24px 24px 32px;
   box-sizing: border-box;
   display: grid;
@@ -605,6 +612,9 @@ a:hover:after {
     grid-template-areas: "name menu" "social address";
     grid-template-columns: repeat(2, 50%);
     padding: 80px 80px 48px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
   }
 }
 .footer__menu {

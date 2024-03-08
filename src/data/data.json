@@ -39,7 +39,7 @@
       "image": "images/mdoc-1.png",
       "type": "projects__item--img-left",
       "class": "projects__item-img--mdoc",
-      "descr": "Ein Service, mit dem man sich am Tag der Anfrage einen Arzttermin sichern, eine Videoberatung erhalten und Laborergebnisse entschlüsseln lassen kann. Nach der Beratung sind alle Empfehlungen im persönlichen Patientenportal verfügbar. Auf der Website kann man nicht nur einen Arzt auswählen und sich zu einem passenden Termin anmelden, sondern auch Gesundheitsprogramme erwerben und die Dienstleistungen mit Hilfe der Krankenversicherung bezahlen. Außerdem besteht die Möglichkeit, sich mit einem Tierarzt über die Behandlung von Haustieren zu beraten.",
+      "descr": "Mit diesem Service kann man einen Arzttermin vereinbaren, eine Videoberatung erhalten und Laborergebnisse erklärt bekommen. Nach der Beratung sind alle Empfehlungen im persönlichen Patientenportal verfügbar. Auf der Website kann man nicht nur einen Arzt auswählen, sondern auch einen Kurs zur Gesundheitsförderung erwerben. Die Dienstleistungen können mit Hilfe der Krankenversicherung bezahlt werden und es ist möglich, eine Beratung mit dem Tierarzt zu erhalten.",
       "link": ""
     },
     {
@@ -66,7 +66,7 @@
       "image": "images/podcast-1.png",
       "type": "projects__item--img-right",
       "class": "projects__item-img--soft",
-      "descr": "Podcast über Soft Skills. Ich habe das Design dieser Landingpage während meiner Arbeit bei Yandex.Praktikum umgesetzt. Die Website auf Russisch können Sie über den unten stehenden Link anzeigen.",
+      "descr": "Podcast über Soft Skills. Das Design der Landingpage wurde von mir während der Arbeit bei Yandex.Praktikum erstellt. Die Website auf Russisch können Sie über den unten stehenden Link anzeigen.",
       "link": "https://maybesofter.com/"
     }
   ],
