@@ -12,27 +12,11 @@ block content
 					.main__about-text-item
 						p 👋 Hallo, ich bin Nadja Degtiarewa.
 					.main__about-text-item
-						h4 Ich bin UX/UI Designerin und Web-Entwicklerin (html, css, js) aus 
-							a(href="https://www.google.com/maps/place/%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F/@59.9387626,29.4339964,9z/data=!3m1!4b1!4m6!3m5!1s0x4696378cc74a65ed:0x6dc7673fab848eff!8m2!3d59.9310584!4d30.3609096!16zL20vMDZwcjY?entry=ttu" target="_blank") Sankt-Petersburg 
-							| (
-							a(href="" target="") Russland
-							| ), wohne jetzt in 
-							a(href="https://www.google.com/maps/place/%D0%94%D1%80%D0%B5%D0%B7%D0%B4%D0%B5%D0%BD/@51.0767174,13.6074366,11z/data=!3m1!4b1!4m6!3m5!1s0x4709cf29101ad6a9:0x421b1cb4288feb0!8m2!3d51.0504088!4d13.7372621!16zL20vMDliOW0?entry=ttu" target="_blank") Dresden 
-							| (
-							a(href="" target="") Deutschland
-							| ).
+						h4 Ich bin UX/UI Designerin und Web-Entwicklerin (html, css, js) aus Sankt-Petersburg (Russland), wohne jetzt in Dresden.
 					.main__about-text-item
 						p Web-Entwicklerin und UX/UI-Designerin bei 
 							a(href="https://secrets.tinkoff.ru/" rel="nofollow" target="_blank") Business-Secrets
 							|  (Tinkoff Bank Medien für Unternehmer)
-						p UX/UI-Designerin und Web-Entwicklerin bei 
-							a(href="https://mydoc.ru/" rel="nofollow" target="_blank") MyDoc 
-							| und 
-							a(href="https://mydocclinic.ru/" rel="nofollow" target="_blank") MyDoc-Clinic
-						p Ex-Webdesignerin bei 
-							a(href="https://practicum.yandex.ru/" rel="nofollow" target="_blank") Yandex.Practicum
-						p Ex-Mentorin (html/pug, css/sass, gulp/webpack) bei 
-							a(href="https://htmlacademy.org/" rel="nofollow" target="_blank") HTML Academy
 				.main__about-photo
 					img(src="images/ndeg.jpg" alt="Web/UX/UI Designerin, Web-Entwicklerin")
 
@@ -57,41 +41,7 @@ block content
 							if item.link !== ""
 								a(class="ext-link" target="_blank" href= item.link rel="nofollow") Webseite
 				
-				.projects__row
-					each item in projekts.slice(2,4)
-						div(class="projects__item") 
-							div(class="projects__item-img " + item.class)
-								.img-bg
-									if item.url !== ''
-										a(href= item.url)
-											img(src=item.image alt= item.title)
-									else 
-										img(src=item.image alt= item.title)
-							div(class="projects__item-text projects__item-text--right")
-								if item.url !== ''
-									h3
-										a(href= item.url)= item.title 
-								else
-									h3= item.title
-								p= item.descr
-								if item.link !== ""
-									a(class="ext-link" target="_blank" href= item.link rel="nofollow") Webseite
-
-				each item in projekts.slice(4,6)
-					div(class="projects__item " + item.type) 
-						div(class="projects__item-img " + item.class)
-							.img-bg
-								if item.url !== ''
-									a(href= item.url) 
-										img(src=item.image alt= item.title)
-								else 
-									img(src=item.image alt= item.title)
-						div(class="projects__item-text projects__item-text--right")
-							if item.url !== ''
-								h3
-									a(href= item.url)= item.title
-							else
-								h3= item.title 
-							p= item.descr
-							if item.link !== ""
-								a(class="ext-link" target="_blank" href= item.link rel="nofollow") Webseite
+		.all-projects 
+			h2 
+				a(href="projects.html") Andere Projekte 
+			a(href="projects.html" class="button") Anschauen

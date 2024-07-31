@@ -247,6 +247,10 @@ a {
 	&__about-text-item {
 		margin-bottom: 20px;
 
+		@include responsive(landscapedesktop) {
+			max-width: 600px;
+		}
+
 		p {
 			margin-bottom: 2px;
 		}
@@ -355,7 +359,7 @@ footer {
 
 .projects {
 	@include responsive(landscapedesktop) {
-		margin-bottom: 80px;
+		margin-bottom: 120px;
 	}
 
 	&__row {

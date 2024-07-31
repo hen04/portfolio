@@ -583,6 +583,12 @@ a:hover:after {
 .main__about-text-item {
   margin-bottom: 20px;
 }
+@media only screen and (min-width: 1024px) {
+  .main__about-text-item {
+    /* > 1024 */
+    max-width: 600px;
+  }
+}
 .main__about-text-item p {
   margin-bottom: 2px;
 }
@@ -680,7 +686,7 @@ footer {
 @media only screen and (min-width: 1024px) {
   .projects {
     /* > 1024 */
-    margin-bottom: 80px;
+    margin-bottom: 120px;
   }
 }
 @media only screen and (min-width: 1024px) {
