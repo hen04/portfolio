@@ -453,6 +453,7 @@ a:hover:after {
 
 .logo a:after,
 .gallery a:after,
+.js-gallery a:after,
 .footer__social a:after,
 .img-bg a:after,
 .all-projects a:after {
@@ -641,7 +642,7 @@ footer {
   align-items: flex-end;
 }
 .footer__social p {
-  margin: 0 12px 0 0;
+  margin: 0 16px 0 0;
 }
 .footer__social a {
   display: flex;
@@ -674,7 +675,7 @@ footer {
   align-items: center;
 }
 .footer__address p:not(:last-child) {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .footer__address img {
   margin-right: 8px;
@@ -837,19 +838,19 @@ footer {
   }
 }
 .projects__item-img--med .img-bg {
-  background-color: rgba(51, 114, 61, 0.05);
+  background-color: rgba(0, 204, 34, 0.2);
 }
 .projects__item-img--evr .img-bg {
-  background-color: rgba(254, 114, 32, 0.05);
+  background-color: rgba(254, 114, 32, 0.2);
 }
 .projects__item-img--mdoc .img-bg {
-  background-color: rgba(0, 102, 204, 0.05);
+  background-color: rgba(0, 102, 204, 0.2);
 }
 .projects__item-img--mclinic .img-bg {
-  background-color: rgba(250, 20, 118, 0.05);
+  background-color: rgba(250, 20, 118, 0.2);
 }
 .projects__item-img--bbike .img-bg {
-  background-color: rgba(255, 209, 1, 0.05);
+  background-color: rgba(255, 209, 1, 0.2);
 }
 .projects__item-img--soft .img-bg {
   background-color: rgba(0, 0, 0, 0.05);
@@ -915,6 +916,104 @@ footer {
 .project-item {
   margin-bottom: 80px;
 }
+.project-item--med img {
+  max-width: 100%;
+  border-radius: 16px;
+  border: 1px solid rgba(4, 25, 65, 0.3);
+}
+.project-item__cover {
+  margin-bottom: 40px;
+}
+.project-item__slider {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 40px;
+}
+.project-item__slider img {
+  border-radius: 16px;
+  border: 1px solid rgba(4, 25, 65, 0.3);
+  box-sizing: border-box;
+}
+@media only screen and (min-width: 1024px) {
+  .project-item__slider a {
+    /* > 1024 */
+    width: 66% !important;
+  }
+}
+.project-item__slider p {
+  margin-top: 16px;
+}
+.project-item__slider .owl-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 108px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 1px;
+  background-color: #FFFFFF;
+}
+.project-item__slider .owl-nav button {
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgba(0, 0, 0, 0.3) !important;
+  background-color: #FFFFFF;
+  font-size: 0 !important;
+  background: #FFFFFF url("../images/arrow-right.svg") 50% 50% no-repeat !important;
+  cursor: default !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  opacity: 0.5;
+}
+.project-item__slider .owl-nav button.owl-prev {
+  transform: rotate(180deg);
+}
+.project-item__slider .owl-nav button:not(.disabled) {
+  cursor: pointer !important;
+  background-color: #FFFFFF !important;
+  opacity: 1;
+}
+@media only screen and (min-width: 1024px) {
+  .project-item__slider-item {
+    /* > 1024 */
+    display: flex;
+    align-items: flex-end;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .project-item__slider-info {
+    /* < 767 */
+    display: none;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .project-item__slider-info {
+    /* < 1023 */
+    display: flex;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .project-item__slider-info {
+    /* > 1024 */
+    padding-left: 24px;
+    width: 33%;
+    box-sizing: border-box;
+  }
+}
+.project-item__slider-info span {
+  min-width: 30px;
+  margin: 16px 8px 16px 0;
+  font-size: 14px;
+}
+.project-item__slider-info p {
+  font-size: 18px;
+}
+@media only screen and (min-width: 1024px) {
+  .project-item__slider-info p {
+    /* > 1024 */
+    margin: 0;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .project-item__row {
     /* > 1024 */
@@ -936,6 +1035,7 @@ footer {
     margin-top: -4px;
   }
 }
+.project-item__heading h3,
 .project-item__heading h4 {
   position: -webkit-sticky;
   position: sticky;
@@ -953,7 +1053,7 @@ footer {
   margin-bottom: 24px;
 }
 .project-item__info-sm {
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 }
 .project-item__info-sm p:not(:last-child) {
   margin-bottom: 16px;
@@ -1132,10 +1232,6 @@ footer {
   content: "—";
   position: absolute;
   left: 0;
-}
-
-.owl-item p {
-  margin-bottom: 16px;
 }
 
 .owl-dots {

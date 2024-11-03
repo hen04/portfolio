@@ -3,6 +3,7 @@
 
 $dark: #041941;
 $text-default: #292929;
+$black: #000000;
 $white: #FFFFFF;
 $menu-active: #3CAC84;
 $button: #279D95;
@@ -117,6 +118,7 @@ a {
 
 .logo,
 .gallery,
+.js-gallery,
 .footer__social,
 .img-bg,
 .all-projects {
@@ -309,7 +311,7 @@ footer {
 		align-items: flex-end;
 
 		p {
-			margin: 0 12px 0 0;
+			margin: 0 16px 0 0;
 		}
 
 		a {
@@ -341,7 +343,7 @@ footer {
 			align-items: center;
 
 			&:not(:last-child) {
-				margin-bottom: 8px;
+				margin-bottom: 16px;
 			}
 		}
 
@@ -515,31 +517,31 @@ footer {
 
 		&--med {
 			.img-bg {
-				background-color: rgba(#33723D, 0.05);
+				background-color: rgba(#00CC22, 0.2);
 			}
 		}
 
 		&--evr {
 			.img-bg {
-				background-color: rgba(#FE7220, 0.05);
+				background-color: rgba(#FE7220, 0.2);
 			}
 		}
 
 		&--mdoc {
 			.img-bg {
-				background-color: rgba(#0066CC, 0.05);
+				background-color: rgba(#0066CC, 0.2);
 			}
 		}
 		
 		&--mclinic {
 			.img-bg {
-				background-color: rgba(#FA1476, 0.05);
+				background-color: rgba(#FA1476, 0.2);
 			}
 		}
 		
 		&--bbike {
 			.img-bg {
-				background-color: rgba(#FFD101, 0.05);
+				background-color: rgba(#FFD101, 0.2);
 			}
 		}
 		
@@ -610,6 +612,112 @@ footer {
 .project-item {
 	margin-bottom: 80px;
 
+	&--med {
+		img {
+			max-width: 100%;
+			border-radius: 16px;
+			border: 1px solid rgba($dark, 0.3);
+		}
+	}
+
+	&__cover {
+		margin-bottom: 40px;
+	}
+
+	&__slider {
+		overflow: hidden;
+		position: relative;
+		margin-bottom: 40px;
+
+		img {
+			border-radius: 16px;
+			border: 1px solid rgba($dark, 0.3);
+			box-sizing: border-box;
+		}
+
+		a {
+
+			@include responsive(landscapedesktop) {
+				width: 66% !important;
+			}
+		}
+
+		p {
+			margin-top: 16px;
+		}
+
+		.owl-nav {
+			display: flex;
+			justify-content: space-between;
+			width: 108px;
+			position: absolute;
+			right: 0;
+			top: 0;
+			padding-top: 1px;
+			background-color: $white;
+
+			button {
+				border-radius: 8px;
+				width: 48px;
+				height: 48px;
+				border: 1px solid rgba($black, 0.3) !important;
+				background-color: $white;
+				font-size: 0 !important;
+				background: $white url('../images/arrow-right.svg') 50% 50% no-repeat !important;
+				cursor: default !important;
+				background-color: rgba($black, 0.1) !important;
+				opacity: 0.5;
+
+				&.owl-prev {
+					transform: rotate(180deg);
+				}
+
+				&:not(.disabled) {
+					cursor: pointer !important;
+					background-color: $white !important;
+					opacity: 1;
+				}
+			}
+		}
+	}
+
+	&__slider-item {
+		@include responsive(landscapedesktop) {
+			display: flex;
+			align-items: flex-end;
+		}
+	}
+
+	&__slider-info {
+		@include responsive(mobile) {
+			display: none;
+		}
+		
+		@include responsive(mobilelandscape) {
+			display: flex;
+		}
+
+		@include responsive(landscapedesktop) {
+			padding-left: 24px;
+			width: 33%;
+			box-sizing: border-box;
+		}
+
+		span {
+			min-width: 30px;
+			margin: 16px 8px 16px 0;	
+			font-size: 14px;
+		}
+
+		p {
+			font-size: 18px;
+
+			@include responsive(landscapedesktop) {
+				margin: 0;
+			}
+		}
+	}
+
 	&__row {
 
 		@include responsive(landscapedesktop) {
@@ -631,6 +739,7 @@ footer {
 			margin-top: -4px;
 		}
 
+		h3,
 		h4 {
 			position: sticky;
 			top: 24px;
@@ -650,7 +759,7 @@ footer {
 	}
 
 	&__info-sm {
-		margin-bottom: 24px;
+		margin-bottom: 40px;
 
 		p {
 			&:not(:last-child) {
@@ -833,12 +942,6 @@ footer {
 		}
 	}
 
-}
-
-.owl-item {
-	p {
-		margin-bottom: 16px;
-	}
 }
 
 .owl-dots {

@@ -18,7 +18,7 @@
     {
       "title": "Medizinischer Managementdienst",
       "url": "project-med.html",
-      "image": "images/med-1.png",
+      "image": "images/mmd-cover.png",
       "type": "projects__item--img-left",
       "class": "projects__item-img--med",
       "descr": "Das System zur Verarbeitung von Berichten von medizinischen Organisationen. Ermöglicht das Sammeln von Daten von medizinischen Organisationen an einem zentralen Ort, die Verarbeitung von Berichten, die Sammlung von Statistiken und die Überwachung von untergeordneten medizinischen Einrichtungen.",
@@ -157,6 +157,58 @@
     {
       "item": "Es macht mir Spaß, mich nicht nur auf das Ergebnis, sondern auch auf den Prozess zu konzentrieren."
     }
+  ],
+
+  "slider": [
+    {
+      "url": "images/mmd-05.png",
+      "info": "Eine Liste mit allen Berichten der medizinischen Einrichtung. Folgende Funktionen stehen dem Benutzer zur Verfügung: Bericht herunterladen, Bericht teilen, zurück zum Bearbeiten des Berichts gehen, Bericht löschen"
+    },
+    {
+      "url": "images/mmd-06.png",
+      "info": "Das Fenster zum Laden von neuen Berichten"
+    },
+    {
+      "url": "images/mmd-07.png",
+      "info": "Der Prozess des Hochladens eines neuen Dokuments"
+    },
+    {
+      "url": "images/mmd-08.png",
+      "info": "Bildschirm des Berichts. Der Benutzer kann den Bericht freigeben, die Daten auf Fehler prüfen und korrigieren"
+    },
+    {
+      "url": "images/mmd-09.png",
+      "info": "Das System hat mehrere Fehler gefunden, die rot hervorgehoben sind, es gibt Erklärungen, wie man die Fehler korrigieren kann"
+    },
+    {
+      "url": "images/mmd-10.png",
+      "info": "Fehler wurden korrigiert und der Bericht kann zur Überprüfung an die Hauptorganisation geschickt werden"
+    },
+    {
+      "url": "images/mmd-11.png",
+      "info": "Versenden eines Berichts. Nach dem Versenden wird der Status des Berichts auf „In Überprüfung“ geändert"
+    },
+    {
+      "url": "images/mmd-12.png",
+      "info": "Eine Liste von Berichten für die Rolle Manager. Neue Berichte sind mit dem Status „Neuer Bericht“ gekennzeichnet. Der Manager kann den Bericht teilen und prüfen"
+    },
+    {
+      "url": "images/mmd-13.png",
+      "info": "Bericht Seite. Der Manager hat die Möglichkeit, den Bericht zu überprüfen. Das System prüft nicht nur den Bericht, sondern vergleicht auch Daten aus bereits hochgeladenen Berichten anderer Organisationen für denselben Zeitraum"
+    },
+    {
+      "url": "images/mmd-14.png",
+      "info": "Prozess der Berichtsprüfung"
+    },
+    {
+      "url": "images/mmd-15.png",
+      "info": "Berichtsbildschirm mit Fehlern und Erläuterungen zu den Fehlern"
+    },
+    {
+      "url": "images/mmd-16.png",
+      "info": "Bildschirm, auf dem der Manager den Bericht mit einer Erklärung ablehnt"
+    }
   ]
+
 
 }

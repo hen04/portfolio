@@ -8,113 +8,81 @@ block nav
 block content
 	main
 		.wrapper
-			.project-item
+			.project-item.project-item--med
 				a(href="projects.html") Alle Projekte
 				h1 Medizinischer Managementdienst
 
+				.project-item__cover 
+					img(src="images/mmd-cover.png" alt="Medizinischer Managementdienst")
+
 				.project-item__row
 					.project-item__heading
-						h4 Worum geht es im Projekt
+						h3 Worum geht es im Projekt
 					.project-item__info
 						p System zur Verarbeitung von Berichten von medizinischen Organisationen. Es ermöglicht das Sammeln von Daten von medizinischen Organisationen an einem zentralen Ort, die Verarbeitung von Berichten, die Sammlung von Statistiken und die Überwachung von untergeordneten medizinischen Einrichtungen.
 
 				.project-item__row
 					.project-item__heading
-						h4 Projektziel
+						h3 Projektziel
 					.project-item__info
-						p Es ist nötig, ein System zu schaffen, mit dem medizinische Organisationen Berichte an Kontrollorganisationen senden können. Da solche Berichte früher nach schnell veraltenden Vorlagen gesendet wurden, musste viel Arbeit manuell erledigt werden. Das System hilft, die Berichtsverarbeitung zu automatisieren und gleichzeitig die Manager von medizinischen Organisationen bei der Ausfüllung von Berichten nicht zu überlasten. Es war notwendig, ein solches System zu schaffen, das es Managern ermöglicht, intuitiv zu verstehen, wie sie verschiedene Berichte hochladen, Fehler in den Berichten erkennen und sie schnell korrigieren können.
+					p Es ist nötig, ein System zu schaffen, mit dem medizinische Organisationen Berichte an Kontrollorganisationen senden können. Da solche Berichte früher nach schnell veraltenden Vorlagen gesendet wurden, musste viel Arbeit manuell erledigt werden. Das System hilft, die Berichtsverarbeitung zu automatisieren und gleichzeitig die Manager von medizinischen Organisationen bei der Ausfüllung von Berichten nicht zu überlasten. Es war notwendig, ein solches System zu schaffen, das es Managern ermöglicht, intuitiv zu verstehen, wie sie verschiedene Berichte hochladen, Fehler in den Berichten erkennen und sie schnell korrigieren können.
 
 
 
 				.project-item__row
 					.project-item__heading
-						h4 Meine Rolle und Arbeitsprozess
+						h3 Meine Rolle und Arbeitsprozess
 					.project-item__info
 						.project-item__info-sm
-							h5 Informationssammlung von dem Projektmanager
-							p Ich habe mit dem Projektmanager zusammengearbeitet, der die Aufgaben von den Kunden gestellt hat. Beispielsweise besteht die Notwendigkeit, einen Ablauf zur Hinzufügung eines neuen Formulars für eine medizinische Einrichtung zu erstellen. Während des Gesprächs haben wir die Details der Aufgabe geklärt, wie das Interface sich funktionieren soll, welche Funktionen den Benutzern mit verschiedenen Rollen zur Verfügung stehen werden.
+							h4 Wettbewerbsanalyse
+							p Das Projekt hat keine direkten Konkurrenten. Ich habe jedoch zwei ähnliche Dienste gefunden, mit denen Benutzer Berichte für das Finanzamt und die Sozialämter ausfüllen können. Zusätzlich zu den Berichten ermöglichen diese Dienste das Führen von Mitarbeiteraufzeichnungen, die Berechnung von Gehältern und das Erstellen von Statistiken.
+							.js-gallery
+								a(href="images/mmd-01.png")
+									img(src="images/mmd-01.png" alt="Wettbewerbsanalyse")
 						.project-item__info-sm
-							h5 Informationen verarbeiten und Referenzen suchen
-							p Nach dem Gespräch habe ich Prototypen erstellt, die es ermöglichen, die notwendige Funktionalität detailliert auszuarbeiten. Ich habe dem Manager die Prototypen gezeigt und den gesamten Prozess des Durchlaufens des Ablaufs mit ihm detailliert besprochen, um genau zu verstehen, dass die Funktion genau so funktioniert.
+							h4 Zielgruppenanalyse
+							p Um die Zielgruppe besser zu verstehen, habe ich mehrere ausführliche Interviews geführt. In unserem System gibt es zwei Benutzerrollen: den Leiter der Poliklinik, der den Bericht versendet, und den Leiter der Verwaltungsorganisation, der den Bericht überprüft. Durch die Interviews konnten die Hauptprobleme der Benutzer identifiziert werden.
+							.js-gallery
+								a(href="images/mmd-02.png")
+									img(src="images/mmd-02.png" alt="Zielgruppenanalyse")
 						.project-item__info-sm
-							h5 Vorbereitung der Layouts der Layouts
-							p Nach der Genehmigung der Prototypen habe ich mit der Vorbereitung der Layouts begonnen. Ich habe versucht, ein System von Komponenten und Variablen aufrechtzuerhalten, um ähnliche Farben und Elemente nicht zu duplizieren. Ich habe sofort alle Zustände gezeichnet, damit die Entwickler während der Entwicklung des Projekts weniger Fragen haben.
+							h4 Ausarbeitung eines Szenarios
+							p Ich habe die Schwierigkeiten analysiert, mit denen Benutzer konfrontiert sind, und mehrere Hypothesen entwickelt, um potenzielle Probleme zu vermeiden. Da der Dienst zwei verschiedene Nutzungsszenarien für unterschiedliche Benutzerrollen umfasst, habe ich eine Tabelle erstellt, die die wichtigsten Interaktionen zwischen Benutzer und System beschreibt.
+							.js-gallery
+								a(href="images/mmd-03.png")
+									img(src="images/mmd-03.png" alt="Ausarbeitung eines Szenarios")
 						.project-item__info-sm
-							h5 Die Besprechung der Layouts mit Entwicklern und dem Manager
-							p Nach der Vorbereitung der Layouts habe ich an einem Gespräch mit den Entwicklern und dem Manager teilgenommen, um die endgültigen Layouts aufeinander abzustimmen oder Korrekturen vorzunehmen, wenn Ungenauigkeiten bemerkt wurden.
+							h4 Beschreibung von Bildschirmen und Elementen
+							p Zur Beschreibung der Bildschirme habe ich Wireflow eingesetzt – eine Kombination aus Wireframe- und Userflow-Funktionalität. In Miro habe ich die Hauptbildschirme detailliert beschrieben und visualisiert, wie die Elemente je nach Benutzerrolle und Szenario interagieren.
+							.js-gallery
+								a(href="images/mmd-04.png")
+									img(src="images/mmd-04.png" alt="Beschreibung von Bildschirmen und Elementen")
 						.project-item__info-sm
-							h5 Erstellung einer Beschreibung der Hauptfunktionalität
-							p Ich habe eine textliche Beschreibung zu den Layouts erstellt und den Entwicklern Erklärungen gegeben, wie sich das Interface in diesem oder jenem Fall verhalten sollte.
+							h4 Auswahl einer Komponentenbibliothek
+							p Um das Erstellen von Layouts und die Entwicklung grundlegender Elemente zu beschleunigen, habe ich die Open-Source-Komponentenbibliothek Gravity UI verwendet. Fehlende Komponenten, die in der Bibliothek nicht enthalten waren, habe ich manuell erstellt.
 						.project-item__info-sm
-							h5 Kontrolle der Entwicklung der Funktionalität
-							p Nach der Entwicklung der Funktionalität habe ich mich mit dem Entwickler abgesprochen und überprüft, ob alles korrekt implementiert wurde. Wir haben die Layouts überarbeitet, wenn wir auf das Problem gestoßen sind, dass eine Funktion in der Form, in der sie gezeichnet wurde, nicht implementiert werden kann.
+							h4 Layout-Zeichnung
+							p Als Beispiel zeige ich das Layout für das Szenario „Hochladen und Versenden eines Berichts zur Überprüfung sowie den Ablauf der Berichtsvalidierung und die Rücksendung zur Überarbeitung. In die Berichtsvalidierung sind sowohl der Benutzer, der den Bericht hochlädt, als auch der Manager, der den Bericht prüft und validiert, involviert.
+
+				.project-item__row
+					.project-item__slider 
+						.owl-carousel.js-owl-carousel-arrow
+							each item, i in slider
+								div 
+									.project-item__slider-item.js-gallery
+										a(href= item.url)
+											img(src = item.url alt="")
+										.project-item__slider-info 
+											span= i+1 + '/12'
+											p= item.info
 
 				.project-item__row
 					.project-item__heading
-						h4 Beispiellayouts
+						h3 Fazit
 					.project-item__info
 						.project-item__info-sm
-							p Wir betrachten die Arbeit mit Layouts am Beispiel der Hinzufügung einer Formenliste. Aufgabe: Entwicklung einer Funktion, die es dem Managementmanager ermöglicht, Formularvorlagen zu erstellen und zu überprüfen. Der Managementmanager erstellt Formularvorlagen, die Manager von medizinischen Organisationen füllen die Formulare aus und senden sie zur Überprüfung. Der Managementmanager überprüft die Formulare auf Fehler, bearbeitet, akzeptiert oder sendet sie zur Überarbeitung.
-							p Es gibt zwei Möglichkeiten, Formularvorlagen zu erstellen – Sie können ein Formular in Excel vorbereiten und es in das System hochladen, oder Sie können ein Formular im Formulareditor erstellen. Der Formulareditor ist eine angepasste Version von Excel, so dass der Managementmanager nicht an eine neue Funktion gewöhnen muss.
-							p Auf dem ersten Bildschirm sieht der Managementmanager die Formulare, er kann sie bearbeiten, akzeptieren oder ablehnen.
+							p Die Arbeit an dem Projekt war zwar nicht einfach, aber sie hat mir viel Zufriedenheit gebracht. Durch das Projekt habe ich gelernt, wie man die Anforderungen der Zielgruppe analysiert, die Bedürfnisse der Benutzer versteht und sorgfältig am User Interface arbeitet.
 
-						.gallery 
-							a(href="images/med-2.png")
-								img(src="images/med-2.png" alt="")
-
-						.project-item__info-sm
-							p Managern stehen zusätzliche Optionen zur Verfügung, die im Kontextmenü (Dreipunktsymbol) gefunden werden können.
-
-						.gallery 
-							a(href="images/med-3.png")
-								img(src="images/med-3.png" alt="")
-
-						.project-item__info-sm
-							p Um ein Formular auszufüllen oder zu bearbeiten, müssen Sie im Menü den Punkt "Ausfüllen" auswählen und der Manager gelangt in den Formulareditor. Der Editor ist eine Benutzeroberfläche, die so nah wie möglich an Excel angelehnt ist.
-
-						.gallery 
-							a(href="images/med-4.png")
-								img(src="images/med-4.png" alt="")
-
-						.project-item__info-sm 
-							p Wenn das Formular korrekt ausgefüllt ist, kann der Manager das Formular akzeptieren, wenn es Fragen gibt, kann er einen Kommentar schreiben und das Formular ablehnen.
-
-						.gallery 
-							a(href="images/med-5.png")
-								img(src="images/med-5.png" alt="")
-
-				.project-item__row
-					.project-item__heading
-						h4 Herausforderungen
-					.project-item__info
-						.project-item__info-sm
-							p Die komplexeste Aufgabe im Projekt war der Formulargenerator. Der Formulargenerator ermöglicht es, Tabellen zu erstellen und zu bearbeiten, Zellen zu füllen, Berechnungsformeln in Zellen anzuwenden, Berichte zu erstellen und verschiedene Manipulationen mit Berichten durchzuführen. Aufgrund seiner komplexen Funktionalität wirkt der Formulargenerator überladen und es dauert eine Weile, sich an solch eine komplexe detailreiche Schnittstelle zu gewöhnen.
-
-						.gallery 
-							a(href="images/med-6.png")
-								img(src="images/med-6.png" alt="")
-						
-						.project-item__info-sm
-							p Eine Besonderheit des Formulargenerators ist die Möglichkeit, mehrere Ebenen in jeder Zelle zu erstellen, um verschiedene Daten - Formeln, Kommentare, Berechnungen - einzugeben. Icons helfen zu verstehen, welche Art von Daten in der Zelle eingegeben wurden.
-
-						.gallery 
-							a(href="images/med-7.png")
-								img(src="images/med-7.png" alt="")
-
-				.project-item__row
-					.project-item__heading
-						h4 Design-System
-					.project-item__info
-						.project-item__info-sm
-							p In meiner Arbeit habe ich ein System von Komponenten und Varianten sowie Text- und Farbvariablen verwendet. Dies hat Zeit gespart und ermöglichte es, die Layouts in einer vorbereiteten Form zur Entwicklung weiterzugeben. Für die Bibliothek habe ich ein separates Projekt verwendet, das mit dem Hauptprojekt verknüpft war. Dies hat es den Managern ermöglicht, sich nicht von den Layout-Reviews und Diskussionen ablenken zu lassen, und gleichzeitig hatten die Entwickler Zugang zu einer vollständigen Bibliothek von Zuständen interaktiver Formularelemente und Varianten von Tabellen, Kontextmenüs, Seitenleisten usw.
-
-						.gallery 
-							a(href="images/med-8.png")
-								img(src="images/med-8.png" alt="")
-
-						.gallery 
-							a(href="images/med-9.png")
-								img(src="images/med-9.png" alt="")
 
 	.all-projects 
 		h2 

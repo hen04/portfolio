@@ -32,11 +32,12 @@
     </header>
     <main>
       <div class="wrapper">
-        <div class="project-item"><a href="projects.html">Alle Projekte</a>
+        <div class="project-item project-item--med"><a href="projects.html">Alle Projekte</a>
           <h1>Medizinischer Managementdienst</h1>
+          <div class="project-item__cover"> <img src="images/mmd-cover.png" alt="Medizinischer Managementdienst"></div>
           <div class="project-item__row">
             <div class="project-item__heading">
-              <h4>Worum geht es im Projekt</h4>
+              <h3>Worum geht es im Projekt</h3>
             </div>
             <div class="project-item__info">
               <p>System zur Verarbeitung von Berichten von medizinischen Organisationen. Es ermöglicht das Sammeln von Daten von medizinischen Organisationen an einem zentralen Ort, die Verarbeitung von Berichten, die Sammlung von Statistiken und die Überwachung von untergeordneten medizinischen Einrichtungen.</p>
@@ -44,93 +45,144 @@
           </div>
           <div class="project-item__row">
             <div class="project-item__heading">
-              <h4>Projektziel</h4>
+              <h3>Projektziel</h3>
+            </div>
+            <div class="project-item__info"></div>
+            <p>Es ist nötig, ein System zu schaffen, mit dem medizinische Organisationen Berichte an Kontrollorganisationen senden können. Da solche Berichte früher nach schnell veraltenden Vorlagen gesendet wurden, musste viel Arbeit manuell erledigt werden. Das System hilft, die Berichtsverarbeitung zu automatisieren und gleichzeitig die Manager von medizinischen Organisationen bei der Ausfüllung von Berichten nicht zu überlasten. Es war notwendig, ein solches System zu schaffen, das es Managern ermöglicht, intuitiv zu verstehen, wie sie verschiedene Berichte hochladen, Fehler in den Berichten erkennen und sie schnell korrigieren können.</p>
+          </div>
+          <div class="project-item__row">
+            <div class="project-item__heading">
+              <h3>Meine Rolle und Arbeitsprozess</h3>
             </div>
             <div class="project-item__info">
-              <p>Es ist nötig, ein System zu schaffen, mit dem medizinische Organisationen Berichte an Kontrollorganisationen senden können. Da solche Berichte früher nach schnell veraltenden Vorlagen gesendet wurden, musste viel Arbeit manuell erledigt werden. Das System hilft, die Berichtsverarbeitung zu automatisieren und gleichzeitig die Manager von medizinischen Organisationen bei der Ausfüllung von Berichten nicht zu überlasten. Es war notwendig, ein solches System zu schaffen, das es Managern ermöglicht, intuitiv zu verstehen, wie sie verschiedene Berichte hochladen, Fehler in den Berichten erkennen und sie schnell korrigieren können.</p>
+              <div class="project-item__info-sm">
+                <h4>Wettbewerbsanalyse</h4>
+                <p>Das Projekt hat keine direkten Konkurrenten. Ich habe jedoch zwei ähnliche Dienste gefunden, mit denen Benutzer Berichte für das Finanzamt und die Sozialämter ausfüllen können. Zusätzlich zu den Berichten ermöglichen diese Dienste das Führen von Mitarbeiteraufzeichnungen, die Berechnung von Gehältern und das Erstellen von Statistiken.</p>
+                <div class="js-gallery"><a href="images/mmd-01.png"><img src="images/mmd-01.png" alt="Wettbewerbsanalyse"></a></div>
+              </div>
+              <div class="project-item__info-sm">
+                <h4>Zielgruppenanalyse</h4>
+                <p>Um die Zielgruppe besser zu verstehen, habe ich mehrere ausführliche Interviews geführt. In unserem System gibt es zwei Benutzerrollen: den Leiter der Poliklinik, der den Bericht versendet, und den Leiter der Verwaltungsorganisation, der den Bericht überprüft. Durch die Interviews konnten die Hauptprobleme der Benutzer identifiziert werden.</p>
+                <div class="js-gallery"><a href="images/mmd-02.png"><img src="images/mmd-02.png" alt="Zielgruppenanalyse"></a></div>
+              </div>
+              <div class="project-item__info-sm">
+                <h4>Ausarbeitung eines Szenarios</h4>
+                <p>Ich habe die Schwierigkeiten analysiert, mit denen Benutzer konfrontiert sind, und mehrere Hypothesen entwickelt, um potenzielle Probleme zu vermeiden. Da der Dienst zwei verschiedene Nutzungsszenarien für unterschiedliche Benutzerrollen umfasst, habe ich eine Tabelle erstellt, die die wichtigsten Interaktionen zwischen Benutzer und System beschreibt.</p>
+                <div class="js-gallery"><a href="images/mmd-03.png"><img src="images/mmd-03.png" alt="Ausarbeitung eines Szenarios"></a></div>
+              </div>
+              <div class="project-item__info-sm">
+                <h4>Beschreibung von Bildschirmen und Elementen</h4>
+                <p>Zur Beschreibung der Bildschirme habe ich Wireflow eingesetzt – eine Kombination aus Wireframe- und Userflow-Funktionalität. In Miro habe ich die Hauptbildschirme detailliert beschrieben und visualisiert, wie die Elemente je nach Benutzerrolle und Szenario interagieren.</p>
+                <div class="js-gallery"><a href="images/mmd-04.png"><img src="images/mmd-04.png" alt="Beschreibung von Bildschirmen und Elementen"></a></div>
+              </div>
+              <div class="project-item__info-sm">
+                <h4>Auswahl einer Komponentenbibliothek</h4>
+                <p>Um das Erstellen von Layouts und die Entwicklung grundlegender Elemente zu beschleunigen, habe ich die Open-Source-Komponentenbibliothek Gravity UI verwendet. Fehlende Komponenten, die in der Bibliothek nicht enthalten waren, habe ich manuell erstellt.</p>
+              </div>
+              <div class="project-item__info-sm">
+                <h4>Layout-Zeichnung</h4>
+                <p>Als Beispiel zeige ich das Layout für das Szenario „Hochladen und Versenden eines Berichts zur Überprüfung sowie den Ablauf der Berichtsvalidierung und die Rücksendung zur Überarbeitung. In die Berichtsvalidierung sind sowohl der Benutzer, der den Bericht hochlädt, als auch der Manager, der den Bericht prüft und validiert, involviert.</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-item__row">
+            <div class="project-item__slider"> 
+              <div class="owl-carousel js-owl-carousel-arrow">
+                <div> 
+                  <div class="project-item__slider-item js-gallery"><a href="images/mmd-05.png"><img src="images/mmd-05.png" alt=""></a>
+                    <div class="project-item__slider-info"> <span>1/12</span>
+                      <p>Eine Liste mit allen Berichten der medizinischen Einrichtung. Folgende Funktionen stehen dem Benutzer zur Verfügung: Bericht herunterladen, Bericht teilen, zurück zum Bearbeiten des Berichts gehen, Bericht löschen</p>
+                    </div>
+                  </div>
+                </div>
+                <div> 
+                  <div class="project-item__slider-item js-gallery"><a href="images/mmd-06.png"><img src="images/mmd-06.png" alt=""></a>
+                    <div class="project-item__slider-info"> <span>2/12</span>
+                      <p>Das Fenster zum Laden von neuen Berichten</p>
+                    </div>
+                  </div>
+                </div>
+                <div> 
+                  <div class="project-item__slider-item js-gallery"><a href="images/mmd-07.png"><img src="images/mmd-07.png" alt=""></a>
+                    <div class="project-item__slider-info"> <span>3/12</span>
+                      <p>Der Prozess des Hochladens eines neuen Dokuments</p>
+                    </div>
+                  </div>
+                </div>
+                <div> 
+                  <div class="project-item__slider-item js-gallery"><a href="images/mmd-08.png"><img src="images/mmd-08.png" alt=""></a>
+                    <div class="project-item__slider-info"> <span>4/12</span>
+                      <p>Bildschirm des Berichts. Der Benutzer kann den Bericht freigeben, die Daten auf Fehler prüfen und korrigieren</p>
+                    </div>
+                  </div>
+                </div>
+                <div> 
+                  <div class="project-item__slider-item js-gallery"><a href="images/mmd-09.png"><img src="images/mmd-09.png" alt=""></a>
+                    <div class="project-item__slider-info"> <span>5/12</span>
+                      <p>Das System hat mehrere Fehler gefunden, die rot hervorgehoben sind, es gibt Erklärungen, wie man die Fehler korrigieren kann</p>
+                    </div>
+                  </div>
+                </div>
+                <div> 
+                  <div class="project-item__slider-item js-gallery"><a href="images/mmd-10.png"><img src="images/mmd-10.png" alt=""></a>
+                    <div class="project-item__slider-info"> <span>6/12</span>
+                      <p>Fehler wurden korrigiert und der Bericht kann zur Überprüfung an die Hauptorganisation geschickt werden</p>
+                    </div>
+                  </div>
+                </div>
+                <div> 
+                  <div class="project-item__slider-item js-gallery"><a href="images/mmd-11.png"><img src="images/mmd-11.png" alt=""></a>
+                    <div class="project-item__slider-info"> <span>7/12</span>
+                      <p>Versenden eines Berichts. Nach dem Versenden wird der Status des Berichts auf „In Überprüfung“ geändert</p>
+                    </div>
+                  </div>
+                </div>
+                <div> 
+                  <div class="project-item__slider-item js-gallery"><a href="images/mmd-12.png"><img src="images/mmd-12.png" alt=""></a>
+                    <div class="project-item__slider-info"> <span>8/12</span>
+                      <p>Eine Liste von Berichten für die Rolle Manager. Neue Berichte sind mit dem Status „Neuer Bericht“ gekennzeichnet. Der Manager kann den Bericht teilen und prüfen</p>
+                    </div>
+                  </div>
+                </div>
+                <div> 
+                  <div class="project-item__slider-item js-gallery"><a href="images/mmd-13.png"><img src="images/mmd-13.png" alt=""></a>
+                    <div class="project-item__slider-info"> <span>9/12</span>
+                      <p>Bericht Seite. Der Manager hat die Möglichkeit, den Bericht zu überprüfen. Das System prüft nicht nur den Bericht, sondern vergleicht auch Daten aus bereits hochgeladenen Berichten anderer Organisationen für denselben Zeitraum</p>
+                    </div>
+                  </div>
+                </div>
+                <div> 
+                  <div class="project-item__slider-item js-gallery"><a href="images/mmd-14.png"><img src="images/mmd-14.png" alt=""></a>
+                    <div class="project-item__slider-info"> <span>10/12</span>
+                      <p>Prozess der Berichtsprüfung</p>
+                    </div>
+                  </div>
+                </div>
+                <div> 
+                  <div class="project-item__slider-item js-gallery"><a href="images/mmd-15.png"><img src="images/mmd-15.png" alt=""></a>
+                    <div class="project-item__slider-info"> <span>11/12</span>
+                      <p>Berichtsbildschirm mit Fehlern und Erläuterungen zu den Fehlern</p>
+                    </div>
+                  </div>
+                </div>
+                <div> 
+                  <div class="project-item__slider-item js-gallery"><a href="images/mmd-16.png"><img src="images/mmd-16.png" alt=""></a>
+                    <div class="project-item__slider-info"> <span>12/12</span>
+                      <p>Bildschirm, auf dem der Manager den Bericht mit einer Erklärung ablehnt</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="project-item__row">
             <div class="project-item__heading">
-              <h4>Meine Rolle und Arbeitsprozess</h4>
+              <h3>Fazit</h3>
             </div>
             <div class="project-item__info">
               <div class="project-item__info-sm">
-                <h5>Informationssammlung von dem Projektmanager</h5>
-                <p>Ich habe mit dem Projektmanager zusammengearbeitet, der die Aufgaben von den Kunden gestellt hat. Beispielsweise besteht die Notwendigkeit, einen Ablauf zur Hinzufügung eines neuen Formulars für eine medizinische Einrichtung zu erstellen. Während des Gesprächs haben wir die Details der Aufgabe geklärt, wie das Interface sich funktionieren soll, welche Funktionen den Benutzern mit verschiedenen Rollen zur Verfügung stehen werden.</p>
+                <p>Die Arbeit an dem Projekt war zwar nicht einfach, aber sie hat mir viel Zufriedenheit gebracht. Durch das Projekt habe ich gelernt, wie man die Anforderungen der Zielgruppe analysiert, die Bedürfnisse der Benutzer versteht und sorgfältig am User Interface arbeitet.</p>
               </div>
-              <div class="project-item__info-sm">
-                <h5>Informationen verarbeiten und Referenzen suchen</h5>
-                <p>Nach dem Gespräch habe ich Prototypen erstellt, die es ermöglichen, die notwendige Funktionalität detailliert auszuarbeiten. Ich habe dem Manager die Prototypen gezeigt und den gesamten Prozess des Durchlaufens des Ablaufs mit ihm detailliert besprochen, um genau zu verstehen, dass die Funktion genau so funktioniert.</p>
-              </div>
-              <div class="project-item__info-sm">
-                <h5>Vorbereitung der Layouts der Layouts</h5>
-                <p>Nach der Genehmigung der Prototypen habe ich mit der Vorbereitung der Layouts begonnen. Ich habe versucht, ein System von Komponenten und Variablen aufrechtzuerhalten, um ähnliche Farben und Elemente nicht zu duplizieren. Ich habe sofort alle Zustände gezeichnet, damit die Entwickler während der Entwicklung des Projekts weniger Fragen haben.</p>
-              </div>
-              <div class="project-item__info-sm">
-                <h5>Die Besprechung der Layouts mit Entwicklern und dem Manager</h5>
-                <p>Nach der Vorbereitung der Layouts habe ich an einem Gespräch mit den Entwicklern und dem Manager teilgenommen, um die endgültigen Layouts aufeinander abzustimmen oder Korrekturen vorzunehmen, wenn Ungenauigkeiten bemerkt wurden.</p>
-              </div>
-              <div class="project-item__info-sm">
-                <h5>Erstellung einer Beschreibung der Hauptfunktionalität</h5>
-                <p>Ich habe eine textliche Beschreibung zu den Layouts erstellt und den Entwicklern Erklärungen gegeben, wie sich das Interface in diesem oder jenem Fall verhalten sollte.</p>
-              </div>
-              <div class="project-item__info-sm">
-                <h5>Kontrolle der Entwicklung der Funktionalität</h5>
-                <p>Nach der Entwicklung der Funktionalität habe ich mich mit dem Entwickler abgesprochen und überprüft, ob alles korrekt implementiert wurde. Wir haben die Layouts überarbeitet, wenn wir auf das Problem gestoßen sind, dass eine Funktion in der Form, in der sie gezeichnet wurde, nicht implementiert werden kann.</p>
-              </div>
-            </div>
-          </div>
-          <div class="project-item__row">
-            <div class="project-item__heading">
-              <h4>Beispiellayouts</h4>
-            </div>
-            <div class="project-item__info">
-              <div class="project-item__info-sm">
-                <p>Wir betrachten die Arbeit mit Layouts am Beispiel der Hinzufügung einer Formenliste. Aufgabe: Entwicklung einer Funktion, die es dem Managementmanager ermöglicht, Formularvorlagen zu erstellen und zu überprüfen. Der Managementmanager erstellt Formularvorlagen, die Manager von medizinischen Organisationen füllen die Formulare aus und senden sie zur Überprüfung. Der Managementmanager überprüft die Formulare auf Fehler, bearbeitet, akzeptiert oder sendet sie zur Überarbeitung.</p>
-                <p>Es gibt zwei Möglichkeiten, Formularvorlagen zu erstellen – Sie können ein Formular in Excel vorbereiten und es in das System hochladen, oder Sie können ein Formular im Formulareditor erstellen. Der Formulareditor ist eine angepasste Version von Excel, so dass der Managementmanager nicht an eine neue Funktion gewöhnen muss.</p>
-                <p>Auf dem ersten Bildschirm sieht der Managementmanager die Formulare, er kann sie bearbeiten, akzeptieren oder ablehnen.</p>
-              </div>
-              <div class="gallery"> <a href="images/med-2.png"><img src="images/med-2.png" alt=""></a></div>
-              <div class="project-item__info-sm">
-                <p>Managern stehen zusätzliche Optionen zur Verfügung, die im Kontextmenü (Dreipunktsymbol) gefunden werden können.</p>
-              </div>
-              <div class="gallery"> <a href="images/med-3.png"><img src="images/med-3.png" alt=""></a></div>
-              <div class="project-item__info-sm">
-                <p>Um ein Formular auszufüllen oder zu bearbeiten, müssen Sie im Menü den Punkt "Ausfüllen" auswählen und der Manager gelangt in den Formulareditor. Der Editor ist eine Benutzeroberfläche, die so nah wie möglich an Excel angelehnt ist.</p>
-              </div>
-              <div class="gallery"> <a href="images/med-4.png"><img src="images/med-4.png" alt=""></a></div>
-              <div class="project-item__info-sm"> 
-                <p>Wenn das Formular korrekt ausgefüllt ist, kann der Manager das Formular akzeptieren, wenn es Fragen gibt, kann er einen Kommentar schreiben und das Formular ablehnen.</p>
-              </div>
-              <div class="gallery"> <a href="images/med-5.png"><img src="images/med-5.png" alt=""></a></div>
-            </div>
-          </div>
-          <div class="project-item__row">
-            <div class="project-item__heading">
-              <h4>Herausforderungen</h4>
-            </div>
-            <div class="project-item__info">
-              <div class="project-item__info-sm">
-                <p>Die komplexeste Aufgabe im Projekt war der Formulargenerator. Der Formulargenerator ermöglicht es, Tabellen zu erstellen und zu bearbeiten, Zellen zu füllen, Berechnungsformeln in Zellen anzuwenden, Berichte zu erstellen und verschiedene Manipulationen mit Berichten durchzuführen. Aufgrund seiner komplexen Funktionalität wirkt der Formulargenerator überladen und es dauert eine Weile, sich an solch eine komplexe detailreiche Schnittstelle zu gewöhnen.</p>
-              </div>
-              <div class="gallery"> <a href="images/med-6.png"><img src="images/med-6.png" alt=""></a></div>
-              <div class="project-item__info-sm">
-                <p>Eine Besonderheit des Formulargenerators ist die Möglichkeit, mehrere Ebenen in jeder Zelle zu erstellen, um verschiedene Daten - Formeln, Kommentare, Berechnungen - einzugeben. Icons helfen zu verstehen, welche Art von Daten in der Zelle eingegeben wurden.</p>
-              </div>
-              <div class="gallery"> <a href="images/med-7.png"><img src="images/med-7.png" alt=""></a></div>
-            </div>
-          </div>
-          <div class="project-item__row">
-            <div class="project-item__heading">
-              <h4>Design-System</h4>
-            </div>
-            <div class="project-item__info">
-              <div class="project-item__info-sm">
-                <p>In meiner Arbeit habe ich ein System von Komponenten und Varianten sowie Text- und Farbvariablen verwendet. Dies hat Zeit gespart und ermöglichte es, die Layouts in einer vorbereiteten Form zur Entwicklung weiterzugeben. Für die Bibliothek habe ich ein separates Projekt verwendet, das mit dem Hauptprojekt verknüpft war. Dies hat es den Managern ermöglicht, sich nicht von den Layout-Reviews und Diskussionen ablenken zu lassen, und gleichzeitig hatten die Entwickler Zugang zu einer vollständigen Bibliothek von Zuständen interaktiver Formularelemente und Varianten von Tabellen, Kontextmenüs, Seitenleisten usw.</p>
-              </div>
-              <div class="gallery"> <a href="images/med-8.png"><img src="images/med-8.png" alt=""></a></div>
-              <div class="gallery"> <a href="images/med-9.png"><img src="images/med-9.png" alt=""></a></div>
             </div>
           </div>
         </div>
