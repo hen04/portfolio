@@ -25,7 +25,7 @@ block content
 					.project-item__heading
 						h3 Projektziel
 					.project-item__info
-					p Es ist nötig, ein System zu schaffen, mit dem medizinische Organisationen Berichte an Kontrollorganisationen senden können. Da solche Berichte früher nach schnell veraltenden Vorlagen gesendet wurden, musste viel Arbeit manuell erledigt werden. Das System hilft, die Berichtsverarbeitung zu automatisieren und gleichzeitig die Manager von medizinischen Organisationen bei der Ausfüllung von Berichten nicht zu überlasten. Es war notwendig, ein solches System zu schaffen, das es Managern ermöglicht, intuitiv zu verstehen, wie sie verschiedene Berichte hochladen, Fehler in den Berichten erkennen und sie schnell korrigieren können.
+						p Es ist nötig, ein System zu schaffen, mit dem medizinische Organisationen Berichte an Kontrollorganisationen senden können. Da solche Berichte früher nach schnell veraltenden Vorlagen gesendet wurden, musste viel Arbeit manuell erledigt werden. Das System hilft, die Berichtsverarbeitung zu automatisieren und gleichzeitig die Manager von medizinischen Organisationen bei der Ausfüllung von Berichten nicht zu überlasten. Es war notwendig, ein solches System zu schaffen, das es Managern ermöglicht, intuitiv zu verstehen, wie sie verschiedene Berichte hochladen, Fehler in den Berichten erkennen und sie schnell korrigieren können.
 
 
 
@@ -65,16 +65,14 @@ block content
 							p Als Beispiel zeige ich das Layout für das Szenario „Hochladen und Versenden eines Berichts zur Überprüfung sowie den Ablauf der Berichtsvalidierung und die Rücksendung zur Überarbeitung. In die Berichtsvalidierung sind sowohl der Benutzer, der den Bericht hochlädt, als auch der Manager, der den Bericht prüft und validiert, involviert.
 
 				.project-item__row
-					.project-item__slider 
-						.owl-carousel.js-owl-carousel-arrow
-							each item, i in slider
-								div 
-									.project-item__slider-item.js-gallery
-										a(href= item.url)
-											img(src = item.url alt="")
-										.project-item__slider-info 
-											span= i+1 + '/12'
-											p= item.info
+					.project-item__images.js-gallery 
+						each item, i in slider
+							.project-item__images-item
+								.project-item__images-info
+									span= i+1 + '/12'
+									p= item.info
+								a(href= item.url)
+									img(src = item.url alt="")
 
 				.project-item__row
 					.project-item__heading

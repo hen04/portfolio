@@ -74,71 +74,129 @@
   "about": [
     {
       "title": "Design",
-      "descr": "Web Design, UX Design, UI Design, Prototypen, Design-Systems"
+      "descr": [
+        {
+          "item": "User Expirience Design"
+        },
+        {
+          "item": "User Flow"
+        },
+        {
+          "item": "Wireframing"
+        },
+        {
+          "item": "Personas"
+        },
+        {
+          "item": "Prototypen"
+        },
+        {
+          "item": "Responsive Design"
+        },
+        {
+          "item": "User Interface Design"
+        },
+        {
+          "item": "Design-Systems"
+        }
+      ]
     },
     {
       "title": "Web Enwicklung",
-      "descr": "HTML5 (PUG), CSS3 (SASS, SCSS, LESS), JavaScript, GIT"
+      "descr": [
+        {
+          "item": "HTML5"
+        },
+        {
+          "item": "PUG"
+        },
+        {
+          "item": "CSS3"
+        },
+        {
+          "item": "SCSS"
+        },
+        {
+          "item": "JavaScript"
+        },
+        {
+          "item": "GIT"
+        }
+      ]
     },
     {
       "title": "Applications",
-      "descr": "Figma, Photoshop, WebStorm, VisualStudio"
+      "descr": [
+        {
+          "item": "Figma"
+        },
+        {
+          "item": "FigJam"
+        },
+        {
+          "item": "Miro"
+        },
+        {
+          "item": "Adobe XD"
+        },
+        {
+          "item": "Webflow"
+        },
+        {
+          "item": "WebStorm"
+        },
+        {
+          "item": "VisualStudio"
+        }
+      ]
     },
     {
       "title": "CMS als Benutzer",
-      "descr": "WordPress, Drupal, Joomla"
+      "descr": [
+        {
+          "item": "WordPress"
+        },
+        {
+          "item": "Drupal"
+        },
+        {
+          "item": "Joomla"
+        }
+      ]
     }
   ],
 
   "experience": [
     {
       "time": "09.2022 – bis jetzt",
-      "title": "Business Secrets (Ein Medium von der Tinkoff Bank)",
+      "title": "Business-Secrets (T-Bank Medien für Unternehmer)",
       "position": "Web-Entwicklerin und UX/UI Designerin",
       "detail": [
         {
-          "item": "Entwicklung eines Systems, das die Arbeit der Redaktoren automatisiert und erleichtert."
-        },
-        {
-          "item": "Entwicklung innerer Projekte für Redaktoren."
+          "item": "Als UX/UI-Designerin arbeite ich derzeit an einem Mediaplaner für das Unternehmen Business-Secrets. In unserem Team sind etwa 60 Autoren und Redakteure aktiv, die täglich verschiedene Inhalte wie Artikel, Neuigkeiten und Forschungsergebnisse veröffentlichen. Der Mediaplaner ermöglicht es unserem Redaktionsteam, die Veröffentlichung von Inhalten über mehrere Wochen im Voraus zu planen. Dabei hilft das Tool, Routineaufgaben zu automatisieren, den menschlichen Aufwand zu reduzieren und den gesamten Veröffentlichungsprozess effizienter zu gestalten."
         }
       ]
     },
     {
-      "time": "02.2022–08.2022",
+      "time": "08.2022–02.2022",
       "title": "Yandex Praktikum",
       "position": "Web-Designerin",
       "detail": [
         {
-          "item": "Erstellung eines Design-Systems von inneren Projekten."
-        },
-        {
-          "item": "Gestaltung eines Designs von Projektarbeiten für Studenten."
-        },
-        {
-          "item": "Aufrechterhaltung des aktuellen Stands von inneren Projekten."
-        },
-        {
-          "item": "Erstellung einer Landing Page für einen Podcast."
+          "item": "Als Web-Designerin bei Yandex Praktikum, einer Lernplattform, habe ich verschiedene Projekte für Studierende entwickelt und gestaltet. Hierbei lag mein Fokus darauf, die Inhalte sowohl benutzerfreundlich als auch visuell ansprechend aufzubereiten, um den Lernprozess optimal zu unterstützen. Im Anschluss habe ich ein umfassendes Design-System für interne Projekte erstellt, das für Konsistenz und eine moderne Gestaltung sorgt. Außerdem habe ich eine Landing Page für einen Podcast entworfen, die die Zielgruppe gezielt anspricht und das Projekt ideal präsentiert."
         }
       ]
     },
     {
-      "time": "08.2020–01.2022",
+      "time": "01.2022–08.2020",
       "title": "MyDoc (Telemedizin) und MyDoc Klinik",
       "position": "UX/UI Designerin und Web-Entwicklerin",
       "detail": [
         {
-          "item": "Erstellung einer Website von einem Telemedizinprojekt."
-        },
+          "item": "Gemeinsam mit einem Projektmanager und einem Entwickler habe ich eine Telemedizin-Website erstellt. Über diese Plattform können Nutzer einen Arzt (Allgemeinmediziner oder Facharzt) finden, einen Termin buchen, Beratungen per Chat oder Videoanruf erhalten und Laborergebnisse einsehen. Die Plattform hat über 1 Million registrierte Nutzer, mehr als 200 Ärzte und es wurden rund 10.000 Konsultationen durchgeführt."
+        }, 
         {
-          "item": "Gestaltung eines Designs von einem App eines Telemedizinprojekt."
-        },
-        {
-          "item": "Erstellung einer Website von der medizinieschen Klinik."
-        },
-        {
-          "item": "Gestaltung eines Design-Systems von dem Telemedizinprojekt und der Klinik."
+          "item": "Zuvor habe ich als Webentwicklerin gearbeitet und für den Frontend-Bereich von Webseiten die Bibliothek Bootstrap verwendet. Statt CSS kam bei mir SCSS zum Einsatz, um mit Mixins, Variablen und Templates effizienter und flexibler zu arbeiten."
         }
       ]
     }
@@ -149,13 +207,26 @@
       "item": "Ich arbeite gerne sowohl in einem Team als auch selbstständig. Ich bin ziemlich flexibel und ich versuche immer eine gemeinsame Sprache mit meinen Kolleg:innen zu finden."
     },
     {
-      "item": "Ich bin diszipliniert und erledige meine Aufgaben pünktlich. Ich gebe viel Acht auf Kleinigkeiten und weiß gleichzeitig, dass Schnittstellen nie perfekt sein können. Es gibt immer viele Möglichkeiten, die Arbeit zu verbessern."
+      "item": "Meine Arbeitsweise ist diszipliniert und zuverlässig; ich lege großen Wert auf Termintreue und eine sorgfältige Umsetzung. Ich achte auf Details, habe jedoch auch im Blick, dass keine Schnittstelle absolut perfekt sein kann und sehe stets Potenzial für Verbesserungen."
     },
     {
       "item": "Meine Kolleg:innen sagen, dass man sich auf die Qualität meiner Arbeit verlassen kann."
     },
     {
       "item": "Es macht mir Spaß, mich nicht nur auf das Ergebnis, sondern auch auf den Prozess zu konzentrieren."
+    }
+  ],
+
+  "study": [
+    {
+      "title": "UX/UI-Design",
+      "subtitle":  "Online Universität Skillbox",
+      "time": "2020–2018"
+    },
+    {
+      "title": "Russische Sprache und Literatur",
+      "subtitle":  "Staatliche Universität Saratow",
+      "time": "2002–1996"
     }
   ],
 
